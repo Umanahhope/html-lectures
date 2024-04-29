@@ -4,19 +4,44 @@
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Coffee Junkie</title>
+ <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-<img src="./image folder/coffee logo.png" width="150px" id="logo" alt="Coffee logo">
+
+ <div class="nav">
+
+  <div class="nav-container">
+    <img src="./image folder/coffee logo.png" alt="coffee logo" width="100px">
+    
+    <div class="btn">
+     <div class="bar"></div>
+     <div class="bar"></div>
+     <div class="bar"></div>
+    </div>
+<!-- <img src="./image folder/header background img.jpg" alt=""> -->
+   </div>
+<ul>
+ <li><a href="index.html">Home</a></li>
+ 
+ <li><a href="about.html">About</a></li>
+ <li><a href="contact.html">Contact</li></a> 
+</ul>
+</div>
+
+<!-- <img src="./image folder/coffee logo.png" width="150px" id="logo" alt="Coffee logo">
 <h1>Coffee Junkie</h1>
 <ul>
  <li><a href="index.html">Home</a></li>
  <li><a href="about.html">About</a></li>
  <li><a href="contact.html">Contact</li></a>
-</ul>
-<h3><a href="#pexels">move to the bottom</a></h3>
+</ul> -->
+>
 <img src="./image folder/background image.jpeg" style="width: 100%;" alt="background image">
+<a href="" id="top"></a>
+<a href="#bottom"> move top the bottom</a>
+
 <h1>Contact Us</h1>
 <br>
 <!-- form -->
@@ -33,8 +58,19 @@
 <input type="text" name="email" id="email">
 <br><br>
 
-<label for="gender">Gender</label>
-<input type="text" name="gender" id="gender">
+<div class="gender">Gender:
+<label for="radio">Male</label>
+<input type="radio" name="radio" id="radio">
+
+<label for="radio">Female</label>
+<input type="radio" name="radio" id="radio">
+
+</div>
+
+
+
+<!-- <label for="gender">Gender</label>
+<input type="text" name="gender" id="gender"> -->
 <br><br>
 
 
@@ -50,9 +86,16 @@ rows="10">
 
 </form>
 <P>Copy wright&copy;2024</P>
-<h3><a href="#logo"  >move to the top</a></h3>
+<a href="#top"  >move to the top</a>
 
-<a href="" id="pexels"></a>
+<a href="" id="bottom"></a>
+
+<!-- this i j-Query i used for the responsiveness of the nav bar -->
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+ <script src="script.js">
+ </script>
+
 
 </body>
 </html>
